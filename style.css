@@ -1,0 +1,87 @@
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400); 
+
+/* <!-- https://github.com/alex93official/ --> */
+
+* {
+  margin: 0;
+  padding: 0
+}
+
+/* Main */
+/* RESPONSIVE */
+html, body {
+  font-family: 'Pirata One', cursive;
+  background: url(/img/ebackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center center;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+/* RESPONSIVE UPDATE */
+
+    @media (max-width : 600px) {
+    
+      .text h1 {
+        font-size: 20px;
+        text-align: left;
+      }
+
+      .text h3 {
+        font-size: 7px;
+        text-align: left;
+      }
+    }
+
+/* RESPONSIVE END*/
+
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* TEXT */
+
+.text {
+  top: 20%;
+  left: 27%;
+  position: absolute;
+  align-items: center;
+}
+
+ h1 {
+  font-family: 'Josefin Sans';
+  font-weight: 400;
+  font-size: 4em;
+  text-shadow: 3px 2px 7px  rgb(103, 103, 241);
+  color: bisque;
+}
+
+
+h3 {
+
+  font-family: 'Josefin Sans';
+  font-weight: 400;
+  font-size: 1em;
+  text-shadow: 10px 6px 20px  rgb(33, 33, 180);
+  color: bisque;
+}
+/* Footer */
+
+.footer a {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-decoration: none !important;
+  }
+  
