@@ -12,7 +12,7 @@
 /* RESPONSIVE */
 html, body {
   font-family: 'Pirata One', cursive;
-  background: url(/img/ebackground.jpg);
+  background: url(../img/ebackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center center;
